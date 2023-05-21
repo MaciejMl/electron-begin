@@ -2,10 +2,9 @@
   "name": "electron-begin",
   "version": "1.0.0",
   "description": "Electron - basics",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
-    "start": "electron ./app/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron main.js"
   },
   "repository": {
     "type": "git",
